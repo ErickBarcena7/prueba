@@ -1,0 +1,95 @@
+body{
+  width: 100%;
+}
+.grid-container{
+  display:grid;
+  grid-template-columns: 442px 442px 442px;
+  grid-template-rows: 200px 200px 200px;
+  padding:5px;
+  align-content: center;
+}
+.grid-item1{
+  padding: 20px;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.grid-item1 img{
+  margin-right: 404px;
+  margin-top: -5px;
+  margin-left: 56px;
+  border-radius: 60px;
+  height: 100px;
+}
+.grid-item2{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column:1/2;
+  grid-row: 1/3;
+}
+.grid-item2 img{
+  margin-left: 102px;
+  margin-top: 14px;
+  width: 600px;
+}
+.grid-item3{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column: 3/3;
+  grid-row: 1/3;
+}
+.grid-item3 p{
+  margin-top: -131px;
+  margin-left:-136px;
+  text-align: justify;
+  margin-bottom:20px;
+  font-size: 60px;
+  display:inline-block;
+}
+.grid-item4{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column:2/3;
+  grid-row:3/3;
+}
+.grid-item4 input{
+  height:25%;
+  width: 70%;
+  border-radius: 60px;
+  margin-left: 445px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color:darkblue;
+  cursor: pointer;
+}
+.grid-item5{
+  padding: 20px;
+  grid-row: 3/3;
+  grid-column: 2/2;
+  transition: all .2s ease-in-out;
+}
+.more{
+  background: url('PaqueteAtomic/Group4013.png');
+  background-repeat:no-repeat;
+  background-size: 61px;
+  width: 81px;
+  height: 75px;
+  margin-left: 160px;
+  margin-top: 71px;
+  background-position:center;
+  border:none;
+  cursor:pointer;
+}
+.grid-item5 button:hover{
+  transform: scale(1.2);
+}
+.more p{
+  text-align: center;
+  color: white;
+  margin-top: 65px;
+  width: 117px;
+  margin-left: -25px;
+}
+
